@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 model = pickle.load(open('lr_model.pkl', 'rb'))
 
 # Title
-st.title("Employee Attrition Prediction App 💼")
+st.title("HR Attrition Prediction App 💼")
 col1, col2 = st.columns(2)
 with col1:
  age = st.number_input('Age', min_value=18, max_value=60,value=25)
